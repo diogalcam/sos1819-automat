@@ -1,0 +1,62 @@
+    1  git clone https://github.com/diogalcam/sos1819-automatizacion.git
+    2  ls -la
+    3  cd sos1819-automatizacion
+    4  git checkout -b l08
+    5  npm init
+    6  git add .
+    7  git commit -m "pack"
+    8  git push origin
+    9  touch index.js
+   10  c9 index.js
+   11  npm install express --save
+   12  heroku login
+   13  heroku git:remote -a sos1819-l08
+   14  git remote -v
+   15  git add .
+   16  git commit -m "first v"
+   17  git push
+   18  git push origin
+   19  git push heroku l08
+   20  git add .
+   21  git commit -m "j"
+   22  git push
+   23  git push heroku l08 master
+   24  git push heroku l08
+   25  history > commands
+   26  cd ..
+   27  git clone https://github.com/diogalcam/sos1819-automat.git
+   28  cd sos1819-atuomat
+   29  cd sos1819-automat
+   30  touch index.js
+   31  npm init
+   32  npm install express --save
+   33  mkdir contact-api
+   34  cd contact-api
+   35  touch index.js
+   36  ls
+   37  heroku login
+   38  cd ..
+   39  heroku git:remote -a sos1819-l08
+   40  cd contact-api
+   41  cd
+   42  cd workspace
+   43  mkdir /contacts
+   44  mkdir contacts
+   45  cd contacts
+   46  touch index.js
+   47  c9 index.js
+   48  cd contacts
+   49  cd /contacts
+   50  cd sos1819-automat
+   51  mkdir contacts
+   52  cd contacts
+   53  touch index.js
+   54  c9 index.js
+   55  npm init
+   56  npm install express --save
+   57  npm install body-parser --save
+   58  npm install newman -g
+   59  newman run https://www.getpostman.com/collections/6f7d997d0a6be0e9c531
+   60  npm test
+   61  npm run test-apiv1
+   62  history > commands
